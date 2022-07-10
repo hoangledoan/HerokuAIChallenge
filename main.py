@@ -59,6 +59,4 @@ def prediction(data: Model_input):
     return {'prediction': prediction.tolist()}
 
 
-# print(prediction(data))
-if __name__ == '__main__':
-    uvicorn.run(app, host='127.0.0.1', port=8000)
+
